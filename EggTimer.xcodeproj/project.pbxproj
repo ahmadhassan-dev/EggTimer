@@ -16,6 +16,7 @@
 		04711CE02A3988E600B3AE89 /* EggTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711CDF2A3988E600B3AE89 /* EggTimerTests.swift */; };
 		04711CEA2A3988E600B3AE89 /* EggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711CE92A3988E600B3AE89 /* EggTimerUITests.swift */; };
 		04711CEC2A3988E600B3AE89 /* EggTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04711CEB2A3988E600B3AE89 /* EggTimerUITestsLaunchTests.swift */; };
+		04711CF92A3997A900B3AE89 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04711CF82A3997A900B3AE89 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04711CE52A3988E600B3AE89 /* EggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04711CE92A3988E600B3AE89 /* EggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITests.swift; sourceTree = "<group>"; };
 		04711CEB2A3988E600B3AE89 /* EggTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04711CF82A3997A900B3AE89 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		04711CC72A3988E400B3AE89 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				04711CF82A3997A900B3AE89 /* alarm_sound.mp3 */,
 				04711CC82A3988E400B3AE89 /* AppDelegate.swift */,
 				04711CCA2A3988E400B3AE89 /* SceneDelegate.swift */,
 				04711CCC2A3988E400B3AE89 /* ViewController.swift */,
@@ -233,6 +236,7 @@
 			files = (
 				04711CD52A3988E500B3AE89 /* LaunchScreen.storyboard in Resources */,
 				04711CD22A3988E500B3AE89 /* Assets.xcassets in Resources */,
+				04711CF92A3997A900B3AE89 /* alarm_sound.mp3 in Resources */,
 				04711CD02A3988E400B3AE89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
